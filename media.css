@@ -1,0 +1,134 @@
+@media (max-width: 375px) {
+  .body {
+    width: 375px;
+  }
+  .menu-icon {
+    display: block;
+    margin: 1.6rem 2rem;
+  }
+  .logo {
+    margin-left: -1rem;
+    font-size: 25px;
+    margin-top: 1rem;
+  }
+  .underline {
+    display: none;
+  }
+
+  .sidebar {
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 4rem;
+    background-color: red;
+    z-index: 100;
+    width: 280px;
+    height: 366px;
+  }
+  ul li a {
+    color: black;
+  }
+  ul li {
+    padding: 1rem;
+    font-size: 20px;
+  }
+  .sidebar-close {
+    display: block;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.4rem;
+  }
+  .cart-image {
+    display: flex;
+    margin: 0.7rem -2rem;
+  }
+  .cart-image img {
+    width: 30px;
+    height: 30px;
+  }
+  sup {
+    right: 3.5rem;
+    top: 0.9rem;
+  }
+  .body-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .shoe-image {
+    display: none;
+  }
+  .hidden-images {
+    display: flex;
+  }
+  .pop-image {
+    width: 375px;
+    height: 375px;
+    position: static;
+    margin: -1rem auto;
+    border-radius: 0;
+  }
+  .closebtn {
+    display: none;
+  }
+  .previousbtn {
+    margin: 10rem 0 0 1.5rem;
+    width: 15px;
+  }
+  .nextbtn {
+    margin: 0;
+    right: 1rem;
+    top: 14.4rem;
+    width: 15px;
+    padding: 17px;
+  }
+  .body-section {
+    display: block;
+    width: 300px;
+    margin: auto;
+  }
+  .content-next-to-shoe {
+    margin: auto;
+  }
+  .sneaker-company {
+    font-size: 20px;
+  }
+  .fall {
+    font-size: 25px;
+  }
+  .deleted-text {
+    float: right;
+    margin-top: -3.2rem;
+  }
+  .image-section {
+    display: none;
+  }
+  .add-sub--cart {
+    flex-direction: column;
+  }
+  .add-number {
+    width: 250px;
+    margin: auto;
+  }
+  .zero {
+    margin-left: 5rem;
+  }
+  .add-number img:last-child {
+    margin-left: 5rem;
+  }
+  .add-cart {
+    width: 300px;
+    margin: 1rem auto;
+  }
+  .para-cart {
+    margin-left: 1rem;
+  }
+  .add-cart img {
+    margin-left: 5rem;
+  }
+  .cart-page {
+    right: 1rem;
+  }
+  .cart-page1 {
+    right: 1rem;
+  }
+}

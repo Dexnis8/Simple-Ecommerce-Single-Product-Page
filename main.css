@@ -1,0 +1,336 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: verdana;
+}
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  animation-name: ease;
+  animation-duration: 2s;
+}
+.menu-icon {
+  display: none;
+}
+.logo {
+  font-size: 22px;
+  margin-left: 13rem;
+  font-weight: bolder;
+}
+.underline {
+  width: 75%;
+  margin-right: 8rem;
+}
+nav {
+  display: grid;
+  grid-template-columns: 20% 60% 10%;
+}
+.sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-self: flex-start;
+  margin-top: 1.78rem;
+}
+ul li a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: hsl(220, 14%, 75%);
+}
+ul li a:hover {
+  color: hsl(26, 100%, 55%);
+}
+.cart-image {
+  margin-top: 1rem;
+  justify-self: flex-end;
+}
+.cart-image img {
+  margin-left: 2rem;
+  cursor: pointer;
+}
+.man-avatar {
+  width: 35px;
+  cursor: pointer;
+  border: 2px solid hsl(26, 100%, 55%);
+  border-radius: 100%;
+  vertical-align: calc(-5px);
+}
+.man-avatar:hover {
+  border-color: hsl(26, 94%, 69%);
+}
+sup {
+  background-color: hsl(26, 100%, 55%);
+  width: 20px;
+  position: absolute;
+  text-align: center;
+  top: 1.5rem;
+  right: 12.4rem;
+  border-radius: 100%;
+  color: white;
+  z-index: -5;
+}
+.shoe-image {
+  width: 380px;
+  height: 400px;
+  border-radius: 10px;
+}
+.body-section {
+  display: grid;
+  grid-template-columns: 400px 520px;
+  justify-content: center;
+  align-content: center;
+  margin: 3% 15%;
+}
+.content-next-to-shoe {
+  margin-left: 5rem;
+  margin-top: 0.5rem;
+}
+.sneaker-company {
+  color: hsl(26, 100%, 55%);
+}
+.fall {
+  font-size: 35px;
+}
+.paragragh {
+  line-height: 25px;
+  color: #555;
+}
+.number {
+  display: flex;
+  margin-top: -10px;
+}
+.number1 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.percent {
+  font-size: 12px;
+  background-color: hsl(25, 100%, 94%);
+  text-align: center;
+  margin: 2rem 0.4rem;
+  padding-top: 2px;
+  height: 15px;
+  width: 35px;
+  border-radius: 5px;
+  color: hsl(26, 100%, 55%);
+}
+.deleted-text {
+  margin-top: -22px;
+  text-decoration: line-through;
+}
+.add-number {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: hsl(223, 64%, 98%);
+  height: 25px;
+  margin-top: 1.2rem;
+  width: 130px;
+  height: 35px;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+.minus {
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 10px;
+  height: 4px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.zero {
+  margin-top: 0;
+  padding-top: 5px;
+  margin-left: 1.5rem;
+}
+.add-number img:last-child {
+  height: 10px;
+  margin-left: 1.5rem;
+  padding-top: 7px;
+  cursor: pointer;
+}
+.add-sub--cart {
+  display: flex;
+}
+.add-cart {
+  background-color: hsl(26, 100%, 55%);
+  margin-left: 20px;
+  width: 200px;
+  margin-top: 1rem;
+  cursor: pointer;
+  text-align: center;
+  height: 40px;
+  padding-top: 8px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+}
+.add-cart:hover {
+  background-color: hsl(26, 94%, 69%);
+}
+.add-cart img {
+  width: 20px;
+  height: 20px;
+  padding-top: 4px;
+  margin-left: 2rem;
+}
+.para-cart {
+  align-self: flex-end;
+  margin-left: 1rem;
+  color: white;
+}
+.image-section {
+  margin-top: -5rem;
+  display: flex;
+  margin-left: 15.5%;
+  flex-wrap: wrap;
+}
+.image-section img {
+  width: 77px;
+  margin: 12px;
+  border-radius: 10px;
+}
+/* ///////Display on clicks  */
+
+.cart-page1 {
+  width: 300px;
+  height: 150px;
+  background-color: hsl(223, 64%, 98%);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px hsl(219, 9%, 45%);
+  color: #555;
+  position: absolute;
+  top: 4rem;
+  right: 7rem;
+  display: none;
+}
+.empty-cart {
+  text-align: center;
+  margin-top: 3rem;
+}
+.sidebar-close {
+  display: none;
+}
+
+.cart-page {
+  width: 300px;
+  background-color: hsl(223, 64%, 98%);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px hsl(219, 9%, 45%);
+  color: #555;
+  position: absolute;
+  top: 4rem;
+  right: 7rem;
+  display: none;
+}
+.Cart {
+  font-weight: bolder;
+}
+
+.text {
+  margin-left: 2rem;
+}
+.prices-in-cart {
+  display: flex;
+  margin-left: 2rem;
+  margin-top: -1.5rem;
+}
+.delete {
+  float: right;
+  margin: -2rem 1rem;
+  cursor: pointer;
+}
+.item-container {
+  margin-left: 2rem;
+}
+.item-image {
+  float: left;
+  width: 50px;
+  border-radius: 10px;
+  margin-left: -2rem;
+}
+.shoe-quantity {
+  margin-left: 5px;
+}
+.total-price {
+  margin-left: 10px;
+  font-weight: bolder;
+  color: black;
+}
+.btn-close {
+  float: right;
+  margin-top: -2rem;
+  cursor: pointer;
+}
+.checkout {
+  text-align: center;
+  background-color: hsl(26, 100%, 55%);
+  margin-left: rem;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+.checkout:hover {
+  background-color: hsl(26, 94%, 69%);
+}
+.first-image {
+  opacity: 0.5;
+}
+.image-section img:hover {
+  opacity: 0.5;
+}
+.hidden-images {
+  display: none;
+}
+.pop-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  position: absolute;
+  margin: 1% 38%;
+  animation-name: ease;
+  animation-duration: 3s;
+}
+.closebtn {
+  position: fixed;
+  z-index: 100;
+  right: 25rem;
+  top: 6rem;
+  width: 2rem;
+}
+.previousbtn {
+  position: absolute;
+  margin: 14% 36%;
+  background-color: white;
+  width: 20px;
+  border-radius: 100%;
+  text-align: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+.nextbtn {
+  position: absolute;
+  margin: 14% 65%;
+  background-color: white;
+  width: 1rem;
+  border-radius: 100%;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+@keyframes ease {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

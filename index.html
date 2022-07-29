@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <nav>
+      <img src="images/icon-menu.svg" class="menu-icon" alt="" />
+      <p class="logo">sneakers</p>
+      <ul class="sidebar">
+        <li>
+          <a href="#">Collections</a
+          ><img src="images/icon-close.svg" class="sidebar-close" alt="" />
+        </li>
+        <li>
+          <a href="#">Men</a>
+        </li>
+        <li>
+          <a href="#">Women</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+      <div class="cart-image">
+        <img src="images/icon-cart.svg" class="cart-icon" alt="cart-icon" /><sup
+          class="cart-number"
+          >0</sup
+        >
+        <img src="images/image-avatar.png" class="man-avatar" alt="man" />
+      </div>
+    </nav>
+
+    <div class="hidden-images">
+      <img
+        src="images/icon-close.svg"
+        class="closebtn btn-close btn-close-hidden"
+        alt="#"
+      />
+      <img src="images/image-product-1.jpg" class="pop-image" alt="#" />
+      <img src="images/icon-previous.svg" class="previousbtn" alt="#" />
+      <img src="images/icon-next.svg" class="nextbtn" alt="#" />
+    </div>
+    <!-- /////////////////////////////// -->
+    <div class="cart-page1">
+      <p class="Cart">Cart</p>
+      <img src="images/icon-close.svg" class="btn-close" alt="" />
+      <hr />
+      <p class="empty-cart">Your Cart is Empty</p>
+    </div>
+
+    <!-- ////////////////////////////////////// -->
+    <div class="cart-page">
+      <p class="Cart">Cart</p>
+      <img src="images/icon-close.svg" class="btn-close" alt="#" />
+      <hr />
+      <div class="item-container">
+        <img
+          src="images/image-product-1-thumbnail.jpg"
+          class="item-image"
+          alt="img"
+        />
+        <p class="text">Fall Limited Edition Sneakers</p>
+        <div class="prices-in-cart">
+          <p class="fixed-price">$125.00 x</p>
+          <p class="shoe-quantity">0</p>
+          <p class="total-price">$0.00</p>
+        </div>
+        <img src="images/icon-delete.svg" class="delete" alt="#" />
+      </div>
+
+      <p class="checkout">Checkout</p>
+    </div>
+    <hr class="underline" />
+
+    <section class="body-section">
+      <img
+        src="images/image-product-1.jpg"
+        class="shoe-image"
+        alt="shoe-image"
+      />
+      <div class="content-next-to-shoe">
+        <p class="sneaker-company">SNEAKER COMPANY</p>
+        <h2 class="fall">Fall Limited Edition Sneakers</h2>
+        <p class="paragragh">
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they’ll withstand everything
+          the weather can offer.
+        </p>
+        <div class="number">
+          <p class="number1">$125.00</p>
+          <p class="percent">50%</p>
+        </div>
+        <p class="deleted-text">$250.00</p>
+        <div class="add-sub--cart">
+          <div class="add-number">
+            <img src="images/icon-minus.svg" class="minus" alt="" />
+            <p class="zero">0</p>
+            <img src="images/icon-plus.svg" class="plus" alt="" />
+          </div>
+          <div class="add-cart">
+            <img src="images/icon-cart.svg" alt="#" />
+            <p class="para-cart">Add to cart</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="image-section">
+      <img
+        src="images/image-product-1-thumbnail.jpg"
+        class="image1 images-section first-image"
+        alt="img"
+      />
+      <img
+        src="images/image-product-2-thumbnail.jpg"
+        class="image2 images-section"
+        alt="img"
+      />
+      <img
+        src="images/image-product-3-thumbnail.jpg"
+        class="image3 images-section"
+        alt="img"
+      />
+      <img
+        src="images/image-product-4-thumbnail.jpg"
+        class="image4 images-section"
+        alt="img"
+      />
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
